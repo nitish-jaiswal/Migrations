@@ -1,0 +1,6 @@
+CREATE TABLE coupon (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    code VARCHAR(50) UNIQUE NOT NULL,
+    discount DECIMAL(5, 2) NOT NULL,
+    expiration_date DATE NOT NULL
+);
