@@ -5,3 +5,5 @@ CREATE TABLE audit_log (
     changed_data TEXT,
     timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+
