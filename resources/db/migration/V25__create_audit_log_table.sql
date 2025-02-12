@@ -1,0 +1,7 @@
+CREATE TABLE audit_log (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    table_name VARCHAR(255) NOT NULL,
+    operation VARCHAR(50) NOT NULL,
+    changed_data TEXT,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
